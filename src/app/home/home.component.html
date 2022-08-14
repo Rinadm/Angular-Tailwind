@@ -1,0 +1,129 @@
+
+ 
+<div class="h-screen bg-sky-50 bg-hero"> 
+
+<nav class="flex items-center justify-between flex-wrap bg-sky-700 p-6 drop-shadow-lg">
+    <div class="flex items-center flex-shrink-0 text-sky-50 mr-6">
+  
+      <span class="font-semibold text-xl tracking-tight">MySchedual</span>
+    </div>
+    <div class="block lg:hidden">
+      
+    </div>
+    <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+      <div class="text-sm lg:flex-grow">
+        <a href="home"class="block mt-4 lg:inline-block lg:mt-0 text-sky-50 hover:text-white mr-4 font-serif">
+          Home
+        </a>
+        <a href="calendar" class="block mt-4 lg:inline-block lg:mt-0 text-sky-50 hover:text-white mr-4 font-serif">
+         Calendar
+        </a>
+       
+      </div>
+    </div>
+    <div class="text text-left text-white font-mono font-semibold tracking-tight">{{myDate | date : 'short'}}</div>
+  </nav>
+
+<div class="w-full bg-cover bg-center h-3 bg-stone-500/20"></div>
+
+
+
+
+  <div class="my-10 mx-auto container sm:max-w-6xl py-5 bg-white max-w-xs rounded-md shadow-xl ">
+    <div class="text text-left  m-3 text-blue-900 font-serif font-semibold text-xl">My courses</div>
+    <div class="flex justify-start gap-4 m-3">
+      <a href="cyber" class="text text-stone-900 font-serif drop-shadow-md ">Cyber Security </a>
+      <div class="container w-1 h-4 py-3   bg-stone-500/30 "></div>
+      <a href="net" class="text text-stone-900 font-serif drop-shadow-md">Networks</a>
+      <div class="container w-1 h-4 py-3  bg-stone-500/30"></div>
+      <a href="ds" class="text text-stone-900 font-serif drop-shadow-md">Data Structure</a>
+      <div class="container w-1 h-4 py-3  bg-stone-500/30"></div>
+      <a href="db" class="text text-stone-900 font-serif drop-shadow-md">DataBase</a>
+   
+    </div>
+  
+  </div>
+
+
+  <div class="my-10 mx-auto container sm:max-w-6xl py-5 bg-blue-50 max-w-xs rounded-md shadow-xl mt-10"> <!--big blue 2-->
+
+    <div class="flex justify-center gap-2 m-2 "> <!--the 3 cards-->
+    
+    
+      <div class="flex justfy-center gap-4 "> <!--the cards-->
+        
+        <div class="block p-6 rounded-lg shadow-lg bg-white max-w-sm mt-1 mb-3 w-80 ">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+          </svg>
+          <h5 class="text-sky-900 text-xl leading-tight font-medium mb-2 mt-2 font-serif ">Alrts</h5>
+          <div class="container w-full h-1 bg-stone-500/30"></div>
+          <div class="block gap-1">
+            <p class="text-stone-900 m-2 font-serif mb-10">
+             - Chapter10 updated..
+            </p>
+          
+          </div>
+          <div class="text text-right font-serif font-semibold  text-stone-600  drop-shadow-lg">View</div>
+        </div>
+        <div class="block p-6 rounded-lg shadow-lg bg-white max-w-sm mt-1 mb-3 w-80">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
+          </svg>
+          <h5 class="text-sky-900 text-xl leading-tight font-medium mb-2 mt-2 font-serif ">Announcements</h5>
+          <div class="container w-full h-1 bg-stone-500/30"></div>
+          <div class="block gap-1">
+          <p class="text-stone-900 m-2 font-serif">
+          - Mid-Terms Dates ..
+          </p>
+          <p class="text-stone-900 m-2 font-serif">
+          - Class room number..
+           </p>
+        </div>
+        <div class="text text-right font-serif font-semibold  text-stone-600  drop-shadow-lg">View</div>
+        </div>
+      
+        <div class="block p-6 rounded-lg shadow-lg bg-white max-w-sm mt-1 mb-3 w-80 ">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          <h5 class="text-sky-900 text-xl leading-tight font-medium mb-2 mt-2 font-serif">Recent Tasks</h5>
+          <div class="container w-full h-1 bg-stone-500/30"></div>
+          <div class="block gap-1">
+            <p class="text-stone-900 m-2 font-serif mb-10">
+             - Project phase one
+            </p>
+          
+          </div>
+          <div class="text text-right font-serif font-semibold  text-stone-600 drop-shadow-lg">View</div>
+        </div>
+      
+      </div> <!--The cards-->
+    
+    </div> 
+    
+    </div> <!--big blue 2-->
+
+</div> <!--scree-->
+
+
+   
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
